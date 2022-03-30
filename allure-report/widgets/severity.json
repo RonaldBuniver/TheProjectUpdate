@@ -1,0 +1,151 @@
+[ {
+  "uid" : "cc5a5d4532db8026",
+  "name" : "Test06-Verify Avatar Icon",
+  "time" : {
+    "start" : 1648669819773,
+    "stop" : 1648669821843,
+    "duration" : 2070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a08b53a8e3246c4f",
+  "name" : "Test  02: Add Team And Verify",
+  "time" : {
+    "start" : 1648669806579,
+    "stop" : 1648669806741,
+    "duration" : 162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2f80c5d6d096d6b",
+  "name" : "Test07-Search Users",
+  "time" : {
+    "start" : 1648669837694,
+    "stop" : 1648669850469,
+    "duration" : 12775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "201632bd80ccfb2c",
+  "name" : "Test03-Verify New Users",
+  "time" : {
+    "start" : 1648669816710,
+    "stop" : 1648669818125,
+    "duration" : 1415
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1e21ad0b0b01348",
+  "name" : "Test05-Verify Progress Steps",
+  "time" : {
+    "start" : 1648669819238,
+    "stop" : 1648669819642,
+    "duration" : 404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34de7463b2271451",
+  "name" : "Test01- Add And Verify New Task",
+  "time" : {
+    "start" : 1648670575783,
+    "stop" : 1648670576209,
+    "duration" : 426
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4b6ff1f524e59d1",
+  "name" : "Test01-Verify Header",
+  "time" : {
+    "start" : 1648669813820,
+    "stop" : 1648669815758,
+    "duration" : 1938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a5fb9368beb4edb",
+  "name" : "Test07-Search Users",
+  "time" : {
+    "start" : 1648669834324,
+    "stop" : 1648669837588,
+    "duration" : 3264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b8fdd72ec6ac95f",
+  "name" : "Test  04: Delete Team And Verify",
+  "time" : {
+    "start" : 1648669806870,
+    "stop" : 1648669806988,
+    "duration" : 118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b111353df598302",
+  "name" : "Test07-Search Users",
+  "time" : {
+    "start" : 1648669821983,
+    "stop" : 1648669834215,
+    "duration" : 12232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b88bcbbeb4f9bdbe",
+  "name" : "Test  03: Update Team And Verify",
+  "time" : {
+    "start" : 1648669806751,
+    "stop" : 1648669806863,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed08f2cbe10b1861",
+  "name" : "Test  01: Get Team From Grafana",
+  "time" : {
+    "start" : 1648669805264,
+    "stop" : 1648669806560,
+    "duration" : 1296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "111b80288e626139",
+  "name" : "Test02-Verify Default Users",
+  "time" : {
+    "start" : 1648669815958,
+    "stop" : 1648669816584,
+    "duration" : 626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a184716ba2989ea8",
+  "name" : "Test04-Verify User Deletion",
+  "time" : {
+    "start" : 1648669818232,
+    "stop" : 1648669819117,
+    "duration" : 885
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a52188f0a5a08f",
+  "name" : "Test02- Add And Verify New Tasks",
+  "time" : {
+    "start" : 1648670581374,
+    "stop" : 1648670581996,
+    "duration" : 622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

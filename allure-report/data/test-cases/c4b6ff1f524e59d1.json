@@ -1,0 +1,464 @@
+{
+  "uid" : "c4b6ff1f524e59d1",
+  "name" : "Test01-Verify Header",
+  "fullName" : "sanity.GrafanaWeb.Test01_verifyHeader",
+  "historyId" : "8955b763ba084787fbc712f46d29a99f",
+  "time" : {
+    "start" : 1648669813820,
+    "stop" : 1648669815758,
+    "duration" : 1938
+  },
+  "description" : "This Test login and verifies the main header",
+  "descriptionHtml" : "<p>This Test login and verifies the main header</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1648669809507,
+      "stop" : 1648669813506,
+      "duration" : 3999
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1648669813520,
+      "stop" : 1648669813613,
+      "duration" : 93
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test login and verifies the main header",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Login To Grafana",
+      "time" : {
+        "start" : 1648669813880,
+        "stop" : 1648669815207,
+        "duration" : 1327
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1648669813957,
+          "stop" : 1648669814127,
+          "duration" : 170
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fb8100ea73fb002d60a143a7b713aed9)] -> name: user]"
+        }, {
+          "name" : "text",
+          "value" : "admin"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1648669814149,
+          "stop" : 1648669814287,
+          "duration" : 138
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fb8100ea73fb002d60a143a7b713aed9)] -> name: password]"
+        }, {
+          "name" : "text",
+          "value" : "admin"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1648669814304,
+          "stop" : 1648669814426,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fb8100ea73fb002d60a143a7b713aed9)] -> css selector: button[type ='submit']]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1648669814567,
+          "stop" : 1648669815207,
+          "duration" : 640
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fb8100ea73fb002d60a143a7b713aed9)] -> css selector: a[class= 'btn btn-link']]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "admin"
+      }, {
+        "name" : "pass",
+        "value" : "admin"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Text In Element",
+      "time" : {
+        "start" : 1648669815437,
+        "stop" : 1648669815547,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fb8100ea73fb002d60a143a7b713aed9)] -> xpath: //div[@class='text-center dashboard-header']/span]"
+      }, {
+        "name" : "expected",
+        "value" : "Home Dashboard"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1648669815769,
+      "stop" : 1648669815931,
+      "duration" : 162
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1648669850574,
+      "stop" : 1648669851195,
+      "duration" : 621
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_verifyHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MAIGAQ4"
+  }, {
+    "name" : "thread",
+    "value" : "4964@DESKTOP-MAIGAQ4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5645c240dc472608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648669723016,
+        "stop" : 1648669724655,
+        "duration" : 1639
+      }
+    }, {
+      "uid" : "97a2c8a0197b4f99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648669487668,
+        "stop" : 1648669489951,
+        "duration" : 2283
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 20,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "c8c7abf775e557f0",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/18/allure/#testresult/c8c7abf775e557f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669813820,
+          "stop" : 1648669815758,
+          "duration" : 1938
+        }
+      }, {
+        "uid" : "dd7f25515203a474",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/17/allure/#testresult/dd7f25515203a474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669813820,
+          "stop" : 1648669815758,
+          "duration" : 1938
+        }
+      }, {
+        "uid" : "351ddf5c03f2cb33",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/16/allure/#testresult/351ddf5c03f2cb33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669813820,
+          "stop" : 1648669815758,
+          "duration" : 1938
+        }
+      }, {
+        "uid" : "9020ee7f46375c63",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/15/allure/#testresult/9020ee7f46375c63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669487668,
+          "stop" : 1648669489951,
+          "duration" : 2283
+        }
+      }, {
+        "uid" : "5940d8d3ac7137c5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/14/allure/#testresult/5940d8d3ac7137c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669487668,
+          "stop" : 1648669489951,
+          "duration" : 2283
+        }
+      }, {
+        "uid" : "1218873b1fd234b9",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/13/allure/#testresult/1218873b1fd234b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669487668,
+          "stop" : 1648669489951,
+          "duration" : 2283
+        }
+      }, {
+        "uid" : "f91f4f7fe80fd48f",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/12/allure/#testresult/f91f4f7fe80fd48f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669305023,
+          "stop" : 1648669306795,
+          "duration" : 1772
+        }
+      }, {
+        "uid" : "88ad6f0092ca11a6",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/11/allure/#testresult/88ad6f0092ca11a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669305023,
+          "stop" : 1648669306795,
+          "duration" : 1772
+        }
+      }, {
+        "uid" : "f21108445c3afe95",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/10/allure/#testresult/f21108445c3afe95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648667477004,
+          "stop" : 1648667478760,
+          "duration" : 1756
+        }
+      }, {
+        "uid" : "a2c284dcebb06a13",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/9/allure/#testresult/a2c284dcebb06a13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648667181460,
+          "stop" : 1648667183323,
+          "duration" : 1863
+        }
+      }, {
+        "uid" : "6c03117e48bd013c",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/8/allure/#testresult/6c03117e48bd013c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648663161304,
+          "stop" : 1648663162949,
+          "duration" : 1645
+        }
+      }, {
+        "uid" : "f7d1019751596e96",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/7/allure/#testresult/f7d1019751596e96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648663161304,
+          "stop" : 1648663162949,
+          "duration" : 1645
+        }
+      }, {
+        "uid" : "d35dd292773a4b9c",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/6/allure/#testresult/d35dd292773a4b9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648663161304,
+          "stop" : 1648663162949,
+          "duration" : 1645
+        }
+      }, {
+        "uid" : "15e7f463fbb0468f",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/5/allure/#testresult/15e7f463fbb0468f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648663161304,
+          "stop" : 1648663162949,
+          "duration" : 1645
+        }
+      }, {
+        "uid" : "4be1e131e8f63da",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/4/allure/#testresult/4be1e131e8f63da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648663161304,
+          "stop" : 1648663162949,
+          "duration" : 1645
+        }
+      }, {
+        "uid" : "dacbcfcf19621e47",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/3/allure/#testresult/dacbcfcf19621e47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648663161304,
+          "stop" : 1648663162949,
+          "duration" : 1645
+        }
+      }, {
+        "uid" : "cbfd06ecec81d64e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/2/allure/#testresult/cbfd06ecec81d64e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648663161304,
+          "stop" : 1648663162949,
+          "duration" : 1645
+        }
+      }, {
+        "uid" : "9f949770bdb62f61",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/1/allure/#testresult/9f949770bdb62f61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648663161304,
+          "stop" : 1648663162949,
+          "duration" : 1645
+        }
+      }, {
+        "uid" : "2e040168851ef169",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20API/1/allure/#testresult/2e040168851ef169",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648663161304,
+          "stop" : 1648663162949,
+          "duration" : 1645
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c4b6ff1f524e59d1.json",
+  "parameterValues" : [ "web" ]
+}

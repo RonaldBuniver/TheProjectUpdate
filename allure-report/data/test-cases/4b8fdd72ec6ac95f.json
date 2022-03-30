@@ -1,0 +1,507 @@
+{
+  "uid" : "4b8fdd72ec6ac95f",
+  "name" : "Test  04: Delete Team And Verify",
+  "fullName" : "sanity.GrafanaAPI.Test04_deleteTeamAndVerify",
+  "historyId" : "89bd99e5e53782a56cdb3058143ef679",
+  "time" : {
+    "start" : 1648669806870,
+    "stop" : 1648669806988,
+    "duration" : 118
+  },
+  "description" : "This Test Deletes Team in Grafana and Verify it",
+  "descriptionHtml" : "<p>This Test Deletes Team in Grafana and Verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1648669803320,
+      "stop" : 1648669805173,
+      "duration" : 1853
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1648669806867,
+      "stop" : 1648669806867,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test Deletes Team in Grafana and Verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Get Team Property",
+      "time" : {
+        "start" : 1648669806870,
+        "stop" : 1648669806912,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1648669806870,
+          "stop" : 1648669806896,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1648669806896,
+          "stop" : 1648669806912,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@4df5f119"
+        }, {
+          "name" : "path",
+          "value" : "teams[0].id"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "teams[0].id"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Business Flow: Delete Existing Team in Grafana",
+      "time" : {
+        "start" : 1648669806913,
+        "stop" : 1648669806950,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Delete Data From Server",
+        "time" : {
+          "start" : 1648669806913,
+          "stop" : 1648669806950,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "id",
+          "value" : "29"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "29"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Business Flow: Get Team Property",
+      "time" : {
+        "start" : 1648669806950,
+        "stop" : 1648669806988,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Data From Server",
+        "time" : {
+          "start" : 1648669806950,
+          "stop" : 1648669806975,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Extract Value From JSON Format",
+        "time" : {
+          "start" : 1648669806976,
+          "stop" : 1648669806988,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@4516c2ef"
+        }, {
+          "name" : "path",
+          "value" : "totalCount"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "totalCount"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Verify Text With text",
+      "time" : {
+        "start" : 1648669806988,
+        "stop" : 1648669806988,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "1"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1648669806990,
+      "stop" : 1648669806990,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1648669806993,
+      "stop" : 1648669806995,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test04_deleteTeamAndVerify"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MAIGAQ4"
+  }, {
+    "name" : "thread",
+    "value" : "116@DESKTOP-MAIGAQ4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c759c528cf76335e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648669482522,
+        "stop" : 1648669482653,
+        "duration" : 131
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 20,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "941d76308edcf35a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/18/allure/#testresult/941d76308edcf35a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669806870,
+          "stop" : 1648669806988,
+          "duration" : 118
+        }
+      }, {
+        "uid" : "210c782cee15e7db",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/17/allure/#testresult/210c782cee15e7db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669806870,
+          "stop" : 1648669806988,
+          "duration" : 118
+        }
+      }, {
+        "uid" : "bb3296cd80f76115",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/16/allure/#testresult/bb3296cd80f76115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669806870,
+          "stop" : 1648669806988,
+          "duration" : 118
+        }
+      }, {
+        "uid" : "81e84a6f6a12b705",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/15/allure/#testresult/81e84a6f6a12b705",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669482522,
+          "stop" : 1648669482653,
+          "duration" : 131
+        }
+      }, {
+        "uid" : "3c217d9086e7e477",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/14/allure/#testresult/3c217d9086e7e477",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669482522,
+          "stop" : 1648669482653,
+          "duration" : 131
+        }
+      }, {
+        "uid" : "ada3dfe28b7d7027",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/13/allure/#testresult/ada3dfe28b7d7027",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669482522,
+          "stop" : 1648669482653,
+          "duration" : 131
+        }
+      }, {
+        "uid" : "83a27829f4299231",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/12/allure/#testresult/83a27829f4299231",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669296782,
+          "stop" : 1648669296892,
+          "duration" : 110
+        }
+      }, {
+        "uid" : "d6a1fc5e0e46a6e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/11/allure/#testresult/d6a1fc5e0e46a6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669296782,
+          "stop" : 1648669296892,
+          "duration" : 110
+        }
+      }, {
+        "uid" : "8b1a32fbfa4bb23",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/10/allure/#testresult/8b1a32fbfa4bb23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648667465709,
+          "stop" : 1648667465822,
+          "duration" : 113
+        }
+      }, {
+        "uid" : "cdf262496acb2305",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/9/allure/#testresult/cdf262496acb2305",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648667169419,
+          "stop" : 1648667169524,
+          "duration" : 105
+        }
+      }, {
+        "uid" : "8a4209a9c28aa4bd",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/8/allure/#testresult/8a4209a9c28aa4bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664522232,
+          "stop" : 1648664522315,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "9da6f8d547c8b262",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/7/allure/#testresult/9da6f8d547c8b262",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664522232,
+          "stop" : 1648664522315,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "41f2615f937287fe",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/6/allure/#testresult/41f2615f937287fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664522232,
+          "stop" : 1648664522315,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "a37d4ecd2ab3bd97",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/5/allure/#testresult/a37d4ecd2ab3bd97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664522232,
+          "stop" : 1648664522315,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "62ce2439cdb0f1da",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/4/allure/#testresult/62ce2439cdb0f1da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664522232,
+          "stop" : 1648664522315,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "9e7a9a7347945271",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/3/allure/#testresult/9e7a9a7347945271",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664522232,
+          "stop" : 1648664522315,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "fb4bb99f5c3c9787",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/2/allure/#testresult/fb4bb99f5c3c9787",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664522232,
+          "stop" : 1648664522315,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "5c557eed0ceb1dc2",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/1/allure/#testresult/5c557eed0ceb1dc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664522232,
+          "stop" : 1648664522315,
+          "duration" : 83
+        }
+      }, {
+        "uid" : "f324e3c267a4c442",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20API/1/allure/#testresult/f324e3c267a4c442",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664481951,
+          "stop" : 1648664482038,
+          "duration" : 87
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4b8fdd72ec6ac95f.json",
+  "parameterValues" : [ "api" ]
+}

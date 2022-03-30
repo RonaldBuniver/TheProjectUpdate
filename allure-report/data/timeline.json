@@ -1,0 +1,890 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-MAIGAQ4",
+    "children" : [ {
+      "name" : "15796@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test03-Verify New Users",
+        "uid" : "7514810bbd34163",
+        "parentUid" : "be6867350bda7eaa7bbfe38c4dad5193",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669725453,
+          "stop" : 1648669726720,
+          "duration" : 1267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04-Verify User Deletion",
+        "uid" : "4c5db4e4d7028a1b",
+        "parentUid" : "be6867350bda7eaa7bbfe38c4dad5193",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669726820,
+          "stop" : 1648669727759,
+          "duration" : 939
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02-Verify Default Users",
+        "uid" : "750a9787e8d0d2c9",
+        "parentUid" : "be6867350bda7eaa7bbfe38c4dad5193",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669724764,
+          "stop" : 1648669725343,
+          "duration" : 579
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07-Search Users",
+        "uid" : "6763e61f313b8dc2",
+        "parentUid" : "be6867350bda7eaa7bbfe38c4dad5193",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669745684,
+          "stop" : 1648669758455,
+          "duration" : 12771
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "dani", "not-exist" ]
+      }, {
+        "name" : "Test06-Verify Avatar Icon",
+        "uid" : "5095d681fac395b",
+        "parentUid" : "be6867350bda7eaa7bbfe38c4dad5193",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669728273,
+          "stop" : 1648669729927,
+          "duration" : 1654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05-Verify Progress Steps",
+        "uid" : "82153ee4614b560d",
+        "parentUid" : "be6867350bda7eaa7bbfe38c4dad5193",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669727862,
+          "stop" : 1648669728171,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07-Search Users",
+        "uid" : "18c5e6f6e7b8ffd4",
+        "parentUid" : "be6867350bda7eaa7bbfe38c4dad5193",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669742316,
+          "stop" : 1648669745577,
+          "duration" : 3261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "Admin", "exists" ]
+      }, {
+        "name" : "Test07-Search Users",
+        "uid" : "1464d905524376f0",
+        "parentUid" : "be6867350bda7eaa7bbfe38c4dad5193",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669730046,
+          "stop" : 1648669742212,
+          "duration" : 12166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "Ron", "not-exist" ]
+      }, {
+        "name" : "Test01-Verify Header",
+        "uid" : "5645c240dc472608",
+        "parentUid" : "be6867350bda7eaa7bbfe38c4dad5193",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669723016,
+          "stop" : 1648669724655,
+          "duration" : 1639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "be6867350bda7eaa7bbfe38c4dad5193"
+    }, {
+      "name" : "9592@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test01- Add And Verify New Task",
+        "uid" : "ed469efe1173ca65",
+        "parentUid" : "8563e9af0635a8d5bb89ffc209f98d28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669494809,
+          "stop" : 1648669495487,
+          "duration" : 678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test02- Add And Verify New Tasks",
+        "uid" : "554108705d3b8c1f",
+        "parentUid" : "8563e9af0635a8d5bb89ffc209f98d28",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648669505700,
+          "stop" : 1648669598441,
+          "duration" : 92741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "8563e9af0635a8d5bb89ffc209f98d28"
+    }, {
+      "name" : "4964@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test01-Verify Header",
+        "uid" : "c4b6ff1f524e59d1",
+        "parentUid" : "0136e9d7e1d80e13ad9cfb5c24db21b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669813820,
+          "stop" : 1648669815758,
+          "duration" : 1938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05-Verify Progress Steps",
+        "uid" : "b1e21ad0b0b01348",
+        "parentUid" : "0136e9d7e1d80e13ad9cfb5c24db21b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669819238,
+          "stop" : 1648669819642,
+          "duration" : 404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02-Verify Default Users",
+        "uid" : "111b80288e626139",
+        "parentUid" : "0136e9d7e1d80e13ad9cfb5c24db21b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669815958,
+          "stop" : 1648669816584,
+          "duration" : 626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07-Search Users",
+        "uid" : "a2f80c5d6d096d6b",
+        "parentUid" : "0136e9d7e1d80e13ad9cfb5c24db21b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669837694,
+          "stop" : 1648669850469,
+          "duration" : 12775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "dani", "not-exist" ]
+      }, {
+        "name" : "Test07-Search Users",
+        "uid" : "5a5fb9368beb4edb",
+        "parentUid" : "0136e9d7e1d80e13ad9cfb5c24db21b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669834324,
+          "stop" : 1648669837588,
+          "duration" : 3264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "Admin", "exists" ]
+      }, {
+        "name" : "Test07-Search Users",
+        "uid" : "9b111353df598302",
+        "parentUid" : "0136e9d7e1d80e13ad9cfb5c24db21b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669821983,
+          "stop" : 1648669834215,
+          "duration" : 12232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "Ron", "not-exist" ]
+      }, {
+        "name" : "Test06-Verify Avatar Icon",
+        "uid" : "cc5a5d4532db8026",
+        "parentUid" : "0136e9d7e1d80e13ad9cfb5c24db21b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669819773,
+          "stop" : 1648669821843,
+          "duration" : 2070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03-Verify New Users",
+        "uid" : "201632bd80ccfb2c",
+        "parentUid" : "0136e9d7e1d80e13ad9cfb5c24db21b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669816710,
+          "stop" : 1648669818125,
+          "duration" : 1415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04-Verify User Deletion",
+        "uid" : "a184716ba2989ea8",
+        "parentUid" : "0136e9d7e1d80e13ad9cfb5c24db21b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669818232,
+          "stop" : 1648669819117,
+          "duration" : 885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "0136e9d7e1d80e13ad9cfb5c24db21b8"
+    }, {
+      "name" : "7732@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test06-Verify Avatar Icon",
+        "uid" : "eaa2b6ca29e84392",
+        "parentUid" : "9bc40ccf1c3bd2729f04a84093425857",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648669493927,
+          "stop" : 1648669496049,
+          "duration" : 2122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07-Search Users",
+        "uid" : "bd321862d8e99c09",
+        "parentUid" : "9bc40ccf1c3bd2729f04a84093425857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669496148,
+          "stop" : 1648669508333,
+          "duration" : 12185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "Ron", "not-exist" ]
+      }, {
+        "name" : "Test07-Search Users",
+        "uid" : "efdb255ed6da56e3",
+        "parentUid" : "9bc40ccf1c3bd2729f04a84093425857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669511897,
+          "stop" : 1648669524657,
+          "duration" : 12760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "dani", "not-exist" ]
+      }, {
+        "name" : "Test05-Verify Progress Steps",
+        "uid" : "2e2fa2942a10d2c8",
+        "parentUid" : "9bc40ccf1c3bd2729f04a84093425857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669493433,
+          "stop" : 1648669493816,
+          "duration" : 383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04-Verify User Deletion",
+        "uid" : "6a13cc57aa331e5d",
+        "parentUid" : "9bc40ccf1c3bd2729f04a84093425857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669492395,
+          "stop" : 1648669493339,
+          "duration" : 944
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07-Search Users",
+        "uid" : "4db7002b63d8e88c",
+        "parentUid" : "9bc40ccf1c3bd2729f04a84093425857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669508477,
+          "stop" : 1648669511782,
+          "duration" : 3305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "Admin", "exists" ]
+      }, {
+        "name" : "Test01-Verify Header",
+        "uid" : "97a2c8a0197b4f99",
+        "parentUid" : "9bc40ccf1c3bd2729f04a84093425857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669487668,
+          "stop" : 1648669489951,
+          "duration" : 2283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02-Verify Default Users",
+        "uid" : "f9206901f62a0509",
+        "parentUid" : "9bc40ccf1c3bd2729f04a84093425857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669490128,
+          "stop" : 1648669490830,
+          "duration" : 702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03-Verify New Users",
+        "uid" : "455936ff07f8983c",
+        "parentUid" : "9bc40ccf1c3bd2729f04a84093425857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669490986,
+          "stop" : 1648669492290,
+          "duration" : 1304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "9bc40ccf1c3bd2729f04a84093425857"
+    }, {
+      "name" : "12700@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test01- Add And Verify New Task",
+        "uid" : "165363b2e8e79cd8",
+        "parentUid" : "1a7b3d9232e951670aae95d8f58a9243",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669820916,
+          "stop" : 1648669821569,
+          "duration" : 653
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test02- Add And Verify New Tasks",
+        "uid" : "7c684fdc6a1b8fef",
+        "parentUid" : "1a7b3d9232e951670aae95d8f58a9243",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669826727,
+          "stop" : 1648669827424,
+          "duration" : 697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "1a7b3d9232e951670aae95d8f58a9243"
+    }, {
+      "name" : "13020@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test  01: Get Team From Grafana",
+        "uid" : "3adec0149bb385c7",
+        "parentUid" : "69b85023f500d1547c3281d01784f9a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669480907,
+          "stop" : 1648669482118,
+          "duration" : 1211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test  03: Update Team And Verify",
+        "uid" : "198fda42b5108be5",
+        "parentUid" : "69b85023f500d1547c3281d01784f9a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669482364,
+          "stop" : 1648669482515,
+          "duration" : 151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test  04: Delete Team And Verify",
+        "uid" : "c759c528cf76335e",
+        "parentUid" : "69b85023f500d1547c3281d01784f9a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669482522,
+          "stop" : 1648669482653,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test  02: Add Team And Verify",
+        "uid" : "b8b76e07209ae2dc",
+        "parentUid" : "69b85023f500d1547c3281d01784f9a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669482141,
+          "stop" : 1648669482347,
+          "duration" : 206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "69b85023f500d1547c3281d01784f9a0"
+    }, {
+      "name" : "17400@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test02- Add And Verify New Tasks",
+        "uid" : "1a52188f0a5a08f",
+        "parentUid" : "5ff3fcbd0e6d4aef69e7091e05cdb15c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648670581374,
+          "stop" : 1648670581996,
+          "duration" : 622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test01- Add And Verify New Task",
+        "uid" : "34de7463b2271451",
+        "parentUid" : "5ff3fcbd0e6d4aef69e7091e05cdb15c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648670575783,
+          "stop" : 1648670576209,
+          "duration" : 426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "5ff3fcbd0e6d4aef69e7091e05cdb15c"
+    }, {
+      "name" : "116@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test  03: Update Team And Verify",
+        "uid" : "b88bcbbeb4f9bdbe",
+        "parentUid" : "390d594bb90ff752bda20f2646b8d0fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669806751,
+          "stop" : 1648669806863,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test  01: Get Team From Grafana",
+        "uid" : "ed08f2cbe10b1861",
+        "parentUid" : "390d594bb90ff752bda20f2646b8d0fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669805264,
+          "stop" : 1648669806560,
+          "duration" : 1296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test  02: Add Team And Verify",
+        "uid" : "a08b53a8e3246c4f",
+        "parentUid" : "390d594bb90ff752bda20f2646b8d0fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669806579,
+          "stop" : 1648669806741,
+          "duration" : 162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test  04: Delete Team And Verify",
+        "uid" : "4b8fdd72ec6ac95f",
+        "parentUid" : "390d594bb90ff752bda20f2646b8d0fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669806870,
+          "stop" : 1648669806988,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "390d594bb90ff752bda20f2646b8d0fc"
+    }, {
+      "name" : "9888@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test01- Add And Verify New Task",
+        "uid" : "d3f60543b487ad70",
+        "parentUid" : "04882813a130d68cce795dc41e6427e3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648670389440,
+          "stop" : 1648670408218,
+          "duration" : 18778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test02- Add And Verify New Tasks",
+        "uid" : "3e2550bb7e1e3ad",
+        "parentUid" : "04882813a130d68cce795dc41e6427e3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648670413274,
+          "stop" : 1648670418954,
+          "duration" : 5680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "04882813a130d68cce795dc41e6427e3"
+    }, {
+      "name" : "4312@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test01- Add And Verify New Task",
+        "uid" : "3f1ebf8551c4faf7",
+        "parentUid" : "4e0bd9a3e28458d1f7e487e2119913d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669624056,
+          "stop" : 1648669624981,
+          "duration" : 925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test02- Add And Verify New Tasks",
+        "uid" : "792009219068699c",
+        "parentUid" : "4e0bd9a3e28458d1f7e487e2119913d3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648669630101,
+          "stop" : 1648669630946,
+          "duration" : 845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "4e0bd9a3e28458d1f7e487e2119913d3"
+    }, {
+      "name" : "14936@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test01- Add And Verify New Task",
+        "uid" : "f5b3a1ac1487454b",
+        "parentUid" : "ac9a921e3a06b59d1b2107a1955d7557",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669685685,
+          "stop" : 1648669686051,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test02- Add And Verify New Tasks",
+        "uid" : "eb8ca1ae58b15cd5",
+        "parentUid" : "ac9a921e3a06b59d1b2107a1955d7557",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669691167,
+          "stop" : 1648669691755,
+          "duration" : 588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "ac9a921e3a06b59d1b2107a1955d7557"
+    }, {
+      "name" : "11116@DESKTOP-MAIGAQ4.main(1)",
+      "children" : [ {
+        "name" : "Test01- Add And Verify New Task",
+        "uid" : "a945b9cf48aa200d",
+        "parentUid" : "fb3a11e58ecc90d6afab4887b0ca246a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648670487670,
+          "stop" : 1648670488056,
+          "duration" : 386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test02- Add And Verify New Tasks",
+        "uid" : "479dcdc2d678f671",
+        "parentUid" : "fb3a11e58ecc90d6afab4887b0ca246a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648670493181,
+          "stop" : 1648670493804,
+          "duration" : 623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "fb3a11e58ecc90d6afab4887b0ca246a"
+    } ],
+    "uid" : "af7e1cba37ebae357cc1dcd6f0be8e89"
+  } ]
+}

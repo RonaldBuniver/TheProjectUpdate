@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Web Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Web Tests(failed)" verbose="0">
+    <parameter name="PlatformName" value="electron"/>
+    <classes>
+      <class name="sanity.TodoListElectron">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="startSession"/>
+          <include name="Test02_addAndVerifyNewTasks"/>
+          <include name="Test01_addAndVerifyNewTask"/>
+          <include name="afterMethod"/>
+          <include name="closeSession"/>
+        </methods>
+      </class> <!-- sanity.TodoListElectron -->
+    </classes>
+  </test> <!-- Web Tests(failed) -->
+</suite> <!-- Failed suite [Web Suite] -->

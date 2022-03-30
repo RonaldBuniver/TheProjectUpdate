@@ -1,0 +1,332 @@
+{
+  "uid" : "a2f80c5d6d096d6b",
+  "name" : "Test07-Search Users",
+  "fullName" : "sanity.GrafanaWeb.Test07_searchUsers",
+  "historyId" : "2b86604fa5d232229e676d11b98cd8aa",
+  "time" : {
+    "start" : 1648669837694,
+    "stop" : 1648669850469,
+    "duration" : 12775
+  },
+  "description" : "This Test Searched Users in a table using DDT",
+  "descriptionHtml" : "<p>This Test Searched Users in a table using DDT</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1648669809507,
+      "stop" : 1648669813506,
+      "duration" : 3999
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1648669837685,
+      "stop" : 1648669837692,
+      "duration" : 7
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test Searched Users in a table using DDT",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Mouse Hover Element",
+      "time" : {
+        "start" : 1648669837736,
+        "stop" : 1648669838014,
+        "duration" : 278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fb8100ea73fb002d60a143a7b713aed9)] -> xpath: //div[@class='sidemenu-item dropdown'][6]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fb8100ea73fb002d60a143a7b713aed9)] -> xpath: //a[@href='/admin/users']]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Business Flow: Search And Verify User",
+      "time" : {
+        "start" : 1648669838014,
+        "stop" : 1648669850347,
+        "duration" : 12333
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text Element as Human",
+        "time" : {
+          "start" : 1648669838032,
+          "stop" : 1648669840270,
+          "duration" : 2238
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fb8100ea73fb002d60a143a7b713aed9)] -> css selector: input[placeholder='Find user by name/login/email']]"
+        }, {
+          "name" : "text",
+          "value" : "dani"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Verify Element Not Displayed",
+        "time" : {
+          "start" : 1648669845305,
+          "stop" : 1648669850347,
+          "duration" : 5042
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elements",
+          "value" : "[]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "dani"
+      }, {
+        "name" : "shouldExists",
+        "value" : "not-exist"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1648669850470,
+      "stop" : 1648669850572,
+      "duration" : 102
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1648669850574,
+      "stop" : 1648669851195,
+      "duration" : 621
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test07_searchUsers"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MAIGAQ4"
+  }, {
+    "name" : "thread",
+    "value" : "4964@DESKTOP-MAIGAQ4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  }, {
+    "name" : "arg0",
+    "value" : "dani"
+  }, {
+    "name" : "arg1",
+    "value" : "not-exist"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6763e61f313b8dc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648669745684,
+        "stop" : 1648669758455,
+        "duration" : 12771
+      }
+    }, {
+      "uid" : "efdb255ed6da56e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648669511897,
+        "stop" : 1648669524657,
+        "duration" : 12760
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "89b36adde8554a6c",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/18/allure/#testresult/89b36adde8554a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669837694,
+          "stop" : 1648669850469,
+          "duration" : 12775
+        }
+      }, {
+        "uid" : "95756d11f37b2181",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/17/allure/#testresult/95756d11f37b2181",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669837694,
+          "stop" : 1648669850469,
+          "duration" : 12775
+        }
+      }, {
+        "uid" : "c9fbe72586bbc3ac",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/16/allure/#testresult/c9fbe72586bbc3ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669745684,
+          "stop" : 1648669758455,
+          "duration" : 12771
+        }
+      }, {
+        "uid" : "f3f472680bc75aa0",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/15/allure/#testresult/f3f472680bc75aa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669511897,
+          "stop" : 1648669524657,
+          "duration" : 12760
+        }
+      }, {
+        "uid" : "a8bfaf2e62f6b94e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/14/allure/#testresult/a8bfaf2e62f6b94e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669511897,
+          "stop" : 1648669524657,
+          "duration" : 12760
+        }
+      }, {
+        "uid" : "dc50c720fb648842",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/13/allure/#testresult/dc50c720fb648842",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669511897,
+          "stop" : 1648669524657,
+          "duration" : 12760
+        }
+      }, {
+        "uid" : "c736304ff039c13d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/12/allure/#testresult/c736304ff039c13d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669328181,
+          "stop" : 1648669340997,
+          "duration" : 12816
+        }
+      }, {
+        "uid" : "dc09784d1de156c3",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/11/allure/#testresult/dc09784d1de156c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669250895,
+          "stop" : 1648669263699,
+          "duration" : 12804
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a2f80c5d6d096d6b.json",
+  "parameterValues" : [ "web", "dani", "not-exist" ]
+}

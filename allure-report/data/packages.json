@@ -1,0 +1,276 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "sanity",
+    "children" : [ {
+      "name" : "GrafanaAPI",
+      "children" : [ {
+        "name" : "Test01_verifyTeam",
+        "uid" : "ed08f2cbe10b1861",
+        "parentUid" : "2cde3ec369bc5469e6492250acd0c829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669805264,
+          "stop" : 1648669806560,
+          "duration" : 1296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test02_addTeamAndVerify",
+        "uid" : "a08b53a8e3246c4f",
+        "parentUid" : "2cde3ec369bc5469e6492250acd0c829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669806579,
+          "stop" : 1648669806741,
+          "duration" : 162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test03_updateTeamAndVerify",
+        "uid" : "b88bcbbeb4f9bdbe",
+        "parentUid" : "2cde3ec369bc5469e6492250acd0c829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669806751,
+          "stop" : 1648669806863,
+          "duration" : 112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      }, {
+        "name" : "Test04_deleteTeamAndVerify",
+        "uid" : "4b8fdd72ec6ac95f",
+        "parentUid" : "2cde3ec369bc5469e6492250acd0c829",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669806870,
+          "stop" : 1648669806988,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "2cde3ec369bc5469e6492250acd0c829"
+    }, {
+      "name" : "GrafanaWeb",
+      "children" : [ {
+        "name" : "Test01_verifyHeader",
+        "uid" : "c4b6ff1f524e59d1",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669813820,
+          "stop" : 1648669815758,
+          "duration" : 1938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02_verifyDefaultUsers",
+        "uid" : "111b80288e626139",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669815958,
+          "stop" : 1648669816584,
+          "duration" : 626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03_verifyNewUsers",
+        "uid" : "201632bd80ccfb2c",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669816710,
+          "stop" : 1648669818125,
+          "duration" : 1415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04_verifyUserDeletion",
+        "uid" : "a184716ba2989ea8",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669818232,
+          "stop" : 1648669819117,
+          "duration" : 885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05_verifyProgressSteps",
+        "uid" : "b1e21ad0b0b01348",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669819238,
+          "stop" : 1648669819642,
+          "duration" : 404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06_verifyAvatarIcon",
+        "uid" : "cc5a5d4532db8026",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669819773,
+          "stop" : 1648669821843,
+          "duration" : 2070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07_searchUsers",
+        "uid" : "9b111353df598302",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669821983,
+          "stop" : 1648669834215,
+          "duration" : 12232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "Ron", "not-exist" ]
+      }, {
+        "name" : "Test07_searchUsers",
+        "uid" : "5a5fb9368beb4edb",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669834324,
+          "stop" : 1648669837588,
+          "duration" : 3264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "Admin", "exists" ]
+      }, {
+        "name" : "Test07_searchUsers",
+        "uid" : "a2f80c5d6d096d6b",
+        "parentUid" : "fb60a0c3b0e42f98830176b668c5c08c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669837694,
+          "stop" : 1648669850469,
+          "duration" : 12775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "dani", "not-exist" ]
+      } ],
+      "uid" : "fb60a0c3b0e42f98830176b668c5c08c"
+    }, {
+      "name" : "TodoListElectron",
+      "children" : [ {
+        "name" : "Test01_addAndVerifyNewTask",
+        "uid" : "34de7463b2271451",
+        "parentUid" : "8a2abd299ab0c8095a7be22f04ccffb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648670575783,
+          "stop" : 1648670576209,
+          "duration" : 426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test02_addAndVerifyNewTasks",
+        "uid" : "1a52188f0a5a08f",
+        "parentUid" : "8a2abd299ab0c8095a7be22f04ccffb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648670581374,
+          "stop" : 1648670581996,
+          "duration" : 622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "8a2abd299ab0c8095a7be22f04ccffb6"
+    } ],
+    "uid" : "838c51b44d7d84d32e356b4096eba035"
+  } ]
+}

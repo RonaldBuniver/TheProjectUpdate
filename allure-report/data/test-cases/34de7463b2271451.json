@@ -1,0 +1,534 @@
+{
+  "uid" : "34de7463b2271451",
+  "name" : "Test01- Add And Verify New Task",
+  "fullName" : "sanity.TodoListElectron.Test01_addAndVerifyNewTask",
+  "historyId" : "ffed9eb7b25554865b246667d05de073",
+  "time" : {
+    "start" : 1648670575783,
+    "stop" : 1648670576209,
+    "duration" : 426
+  },
+  "description" : "This Test adds a new task and verify it in the list of tasks",
+  "descriptionHtml" : "<p>This Test adds a new task and verify it in the list of tasks</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1648670570960,
+      "stop" : 1648670575625,
+      "duration" : 4665
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1648670575634,
+      "stop" : 1648670575687,
+      "duration" : 53
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This Test adds a new task and verify it in the list of tasks",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Add New Task to the List",
+      "time" : {
+        "start" : 1648670575815,
+        "stop" : 1648670576006,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text Element",
+        "time" : {
+          "start" : 1648670575847,
+          "stop" : 1648670575944,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (847bd4b1e0698170236b54863348cef7)] -> css selector: input[placeholder='Create a task']]"
+        }, {
+          "name" : "text",
+          "value" : "Learn hebrew"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Insert Key",
+        "time" : {
+          "start" : 1648670575956,
+          "stop" : 1648670576006,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (847bd4b1e0698170236b54863348cef7)] -> css selector: input[placeholder='Create a task']]"
+        }, {
+          "name" : "value",
+          "value" : ""
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taskName",
+        "value" : "Learn hebrew"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Count And Return Number Of task in List",
+      "time" : {
+        "start" : 1648670576007,
+        "stop" : 1648670576038,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verify Number With Number",
+      "time" : {
+        "start" : 1648670576048,
+        "stop" : 1648670576051,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "1"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1648670576215,
+      "stop" : 1648670581360,
+      "duration" : 5145
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Empty List Of Tasks ",
+      "time" : {
+        "start" : 1648670576215,
+        "stop" : 1648670581360,
+        "duration" : 5145
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Count And Return Number Of task in List",
+        "time" : {
+          "start" : 1648670576216,
+          "stop" : 1648670576226,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Mouse Hover Element",
+        "time" : {
+          "start" : 1648670576245,
+          "stop" : 1648670576295,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on XP (847bd4b1e0698170236b54863348cef7)] -> class name: destroy_19w1q]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Count And Return Number Of task in List",
+        "time" : {
+          "start" : 1648670576295,
+          "stop" : 1648670581360,
+          "duration" : 5065
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1648670582176,
+      "stop" : 1648670582750,
+      "duration" : 574
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.TodoListElectron"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.TodoListElectron"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_addAndVerifyNewTask"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.TodoListElectron"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MAIGAQ4"
+  }, {
+    "name" : "thread",
+    "value" : "17400@DESKTOP-MAIGAQ4.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "electron"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a945b9cf48aa200d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648670487670,
+        "stop" : 1648670488056,
+        "duration" : 386
+      }
+    }, {
+      "uid" : "d3f60543b487ad70",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [0]",
+      "time" : {
+        "start" : 1648670389440,
+        "stop" : 1648670408218,
+        "duration" : 18778
+      }
+    }, {
+      "uid" : "165363b2e8e79cd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648669820916,
+        "stop" : 1648669821569,
+        "duration" : 653
+      }
+    }, {
+      "uid" : "f5b3a1ac1487454b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648669685685,
+        "stop" : 1648669686051,
+        "duration" : 366
+      }
+    }, {
+      "uid" : "3f1ebf8551c4faf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648669624056,
+        "stop" : 1648669624981,
+        "duration" : 925
+      }
+    }, {
+      "uid" : "ed469efe1173ca65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648669494809,
+        "stop" : 1648669495487,
+        "duration" : 678
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "5e83cb5ba0727a52",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/18/allure/#testresult/5e83cb5ba0727a52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648670487670,
+          "stop" : 1648670488056,
+          "duration" : 386
+        }
+      }, {
+        "uid" : "e568d9d32ce1afcf",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/17/allure/#testresult/e568d9d32ce1afcf",
+        "status" : "failed",
+        "statusDetails" : "expected [1] but found [0]",
+        "time" : {
+          "start" : 1648670389440,
+          "stop" : 1648670408218,
+          "duration" : 18778
+        }
+      }, {
+        "uid" : "d93dc19f249497cb",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/16/allure/#testresult/d93dc19f249497cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669820916,
+          "stop" : 1648669821569,
+          "duration" : 653
+        }
+      }, {
+        "uid" : "2b31a23777a085a0",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/15/allure/#testresult/2b31a23777a085a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669685685,
+          "stop" : 1648669686051,
+          "duration" : 366
+        }
+      }, {
+        "uid" : "3970f5870916d814",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/14/allure/#testresult/3970f5870916d814",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669624056,
+          "stop" : 1648669624981,
+          "duration" : 925
+        }
+      }, {
+        "uid" : "b39e04bb9619c4a7",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/13/allure/#testresult/b39e04bb9619c4a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669494809,
+          "stop" : 1648669495487,
+          "duration" : 678
+        }
+      }, {
+        "uid" : "abea0808eb8dd21d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/12/allure/#testresult/abea0808eb8dd21d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669363041,
+          "stop" : 1648669363417,
+          "duration" : 376
+        }
+      }, {
+        "uid" : "8c70c6be9b54d1d3",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/11/allure/#testresult/8c70c6be9b54d1d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648669310891,
+          "stop" : 1648669311412,
+          "duration" : 521
+        }
+      }, {
+        "uid" : "92f667c7b024b5e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/10/allure/#testresult/92f667c7b024b5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648667473756,
+          "stop" : 1648667474317,
+          "duration" : 561
+        }
+      }, {
+        "uid" : "b783dada080bfc26",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/9/allure/#testresult/b783dada080bfc26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648667170755,
+          "stop" : 1648667171324,
+          "duration" : 569
+        }
+      }, {
+        "uid" : "cfda5485126cd67e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/8/allure/#testresult/cfda5485126cd67e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648665114250,
+          "stop" : 1648665114679,
+          "duration" : 429
+        }
+      }, {
+        "uid" : "31eee816b0651ec",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/7/allure/#testresult/31eee816b0651ec",
+        "status" : "failed",
+        "statusDetails" : "expected [0] but found [1]",
+        "time" : {
+          "start" : 1648665040027,
+          "stop" : 1648665040698,
+          "duration" : 671
+        }
+      }, {
+        "uid" : "619f90feed52e556",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/6/allure/#testresult/619f90feed52e556",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: no chrome binary at C:/Users/Ronald/AppData/Local/Programs/todolist/Todolist.exe\n  (Driver info: chromedriver=2.36 (7ea271f92018b1eeb8e70ec6de8c29f9758a0c05),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 121 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-MAIGAQ4', ip: '10.100.102.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'\nDriver info: driver.version: ChromeDriver",
+        "time" : {
+          "start" : 1648664907164,
+          "stop" : 1648664907166,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "eaa3956533db575c",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/5/allure/#testresult/eaa3956533db575c",
+        "status" : "skipped",
+        "statusDetails" : "unknown error: no chrome binary at C:/Users/Ronald/AppData/Local/Programs/todolist/Todolist.exe\n  (Driver info: chromedriver=2.36 (7ea271f92018b1eeb8e70ec6de8c29f9758a0c05),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 102 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-MAIGAQ4', ip: '10.100.102.30', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'\nDriver info: driver.version: ChromeDriver",
+        "time" : {
+          "start" : 1648664895156,
+          "stop" : 1648664895158,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "16d11e2d96dbbf98",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/4/allure/#testresult/16d11e2d96dbbf98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648664808229,
+          "stop" : 1648664813655,
+          "duration" : 5426
+        }
+      }, {
+        "uid" : "739e26472b1480eb",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/3/allure/#testresult/739e26472b1480eb",
+        "status" : "failed",
+        "statusDetails" : "expected [1] but found [0]",
+        "time" : {
+          "start" : 1648664730731,
+          "stop" : 1648664736256,
+          "duration" : 5525
+        }
+      }, {
+        "uid" : "cf328c89bff40dfc",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/2/allure/#testresult/cf328c89bff40dfc",
+        "status" : "failed",
+        "statusDetails" : "expected [1] but found [0]",
+        "time" : {
+          "start" : 1648664684655,
+          "stop" : 1648664690189,
+          "duration" : 5534
+        }
+      }, {
+        "uid" : "667edd268636dd0a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Electron/1/allure/#testresult/667edd268636dd0a",
+        "status" : "failed",
+        "statusDetails" : "expected [1] but found [0]",
+        "time" : {
+          "start" : 1648664592818,
+          "stop" : 1648664603012,
+          "duration" : 10194
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "34de7463b2271451.json",
+  "parameterValues" : [ "electron" ]
+}
